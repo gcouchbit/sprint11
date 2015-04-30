@@ -1,0 +1,23 @@
+.breadcrumb > li + li:before {
+  padding: 0 5px;
+  color: #ccc;
+  content: none;
+}
+body{
+	padding-top:70px;
+}
+.navbar-inverse .navbar-toggle {
+	color: white;
+	font-weight: bold;
+	border-color: white;
+}
+.navbar-inverse .navbar-toggle:hover {
+	background-color: #ddd;
+	color: #333;
+}
+.navbar-inverse .navbar-toggle .glyphicon {
+	color: white;
+}
+.navbar-inverse .navbar-toggle:hover .glyphicon {
+	color: #333;
+}
